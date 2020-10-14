@@ -3,6 +3,8 @@ package cpu;
 public class CPU {
 	int speed;
 	float price;
+	CPU(){
+	}
 	public int getSpeed(){
 		return speed;
 	}	
