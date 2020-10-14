@@ -6,6 +6,8 @@ import hd.HardDisk;
 public class PC {
 	CPU cpu;
 	HardDisk HD;
+	PC(){
+	}
 	public void setCPU(CPU c){
 		this.cpu=c;
 	}
@@ -13,10 +15,10 @@ public class PC {
 		this.HD=h;
 	}
 	public void show(){
-		System.out.println("CPUËÙ¶È"+cpu.getSpeed());
-		System.out.println("CPU¼ÛÇ®"+cpu.getPrice());
-		System.out.println("Ó²ÅÌÈİÁ¿"+HD.getAmount());		
-		System.out.println("Ó²ÅÌºñ¶È"+HD.getWeight());
+		System.out.println("CPUé€Ÿåº¦"+cpu.getSpeed());
+		System.out.println("CPUä»·é’±"+cpu.getPrice());
+		System.out.println("ç¡¬ç›˜å®¹é‡"+HD.getAmount());		
+		System.out.println("ç¡¬ç›˜åšåº¦"+HD.getWeight());
 	}
 
 }
