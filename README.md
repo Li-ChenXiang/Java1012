@@ -8,18 +8,21 @@
 2.熟悉通过对象名引用实例的方法和属性，进一步掌握方法调用时参数的传递。
 
 ## 二、实验过程
+1.创建Java项目Computer;
 
-4.在CPU类中添加getSpeed()返回speed的值，添加setSpeed(int m)方法将参数m的值赋值给speed；
+2.创建CPU类，HardDisk类，PC类以及主类Test类，将四个类分别放在cpu包，hd包，pc包及main包；
 
-5.在HardDisk类中添加getAmount()返回amount的值，添加setAmount(int m)方法将参数m的值赋值给amount;
+3.在CPU类中添加getSpeed()返回speed的值，添加setSpeed(int m)方法将参数m的值赋值给speed；
 
-6.在PC类中添加setCPU(CPU c)将参数c的值赋值给cpu，添加setHardDisk(HardDisk h)方法将参数h的值赋值给HD；
+4.在HardDisk类中添加getAmount()返回amount的值，添加setAmount(int m)方法将参数m的值赋值给amount;
 
-7.添加show()方法能显示cpu的速度和字节及硬盘的容量和质量；  
+5.在PC类中添加setCPU(CPU c)将参数c的值赋值给cpu，添加setHardDisk(HardDisk h)方法将参数h的值赋值给HD；
 
-8.在主类Test的main方法中创建一个CPU对象cpu，将cpu自己的speed设置为2200；创建一个HardDisk对象disk，将disk自己的amount设置为200；创建一个PC对象pc；
+6.添加show()方法能显示cpu的速度和字节及硬盘的容量和质量；  
 
-9.在主类Test的main方法中用pc调用setCPU(CPU c)方法，调用实参是cpu;调用setHardDisk(HardDisk h)方法，调用时实参是disk；调用show()方法。
+7.在主类Test的main方法中创建一个CPU对象cpu，将cpu自己的speed设置为2200；创建一个HardDisk对象disk，将disk自己的amount设置为200；创建一个PC对象pc；
+
+8.在主类Test的main方法中用pc调用setCPU(CPU c)方法，调用实参是cpu;调用setHardDisk(HardDisk h)方法，调用时实参是disk；调用show()方法。
 
 ## 三、核心方法
 1.方法一
@@ -75,6 +78,11 @@ public void show(){
 ```
 
 ## 四、实验结果
-
+```
+CPU速度2200
+CPU价钱3000.0
+硬盘容量200
+硬盘厚度26.0
+```
 
 ## 五、实验感想
